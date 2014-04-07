@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Example 1 - Observer | Event as Stream</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <h1>Hello Brunch</h1>
+        <p>Interact with the title above to get a sweet reaction</p>
+        <!-- TODO: link up jquery locally for presentation internet reasons -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+        <script src="./bower_components/bacon/dist/Bacon.js"></script>
+        <script type="text/javascript" charset="utf-8">
+
+            var cliks = $("h1").asEventStream("click");
+            var mouseO = $("h1").asEventStream("mouseover");
+
+            //Listening on events on a callback via stream or Observer Object
+            cliks.onValue(function() { alert("you clicked the h1 element") })
+            mouseO.onValue(function() { alert("you mouseover the h1 element") })
+            // ^ this seems weird that have have to declare all the events I want instead of handle all of them. TBD.
+        </script>
+    </body>
+</html>
