@@ -22,4 +22,4 @@ Default is URL is [http://localhost:8080](http://localhost:8080).
 * [Wikipedia: Functional reactive programming](http://en.wikipedia.org/wiki/Functional_reactive_programming)
 * [Haskell.org: Functional reactive programming](http://www.haskell.org/haskellwiki/Functional_Reactive_Programming)
 * [jhusain.github.io/learnrx/](http://jhusain.github.io/learnrx/)
-
+* [Reactive UIs with React & Bacon](http://joshbassett.info/2014/reactive-uis-with-react-and-bacon/)
