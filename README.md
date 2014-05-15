@@ -1,8 +1,8 @@
-hipster-brunch-js
+Reactive Notes
 =================
 
 ###Examples installed here (for now)
-* [Front End Examples](https://github.com/bingeboy/hipster-brunch-js/tree/master/clientSide)
+* [Front End Examples](https://github.com/bingeboy/reactive-poc-notes/tree/master/clientSide)
 
 To run examples:
 ```
